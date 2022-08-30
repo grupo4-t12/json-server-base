@@ -16,6 +16,11 @@
       "email": "kagome@mail.com",
       "password": "$2a$10$2c1sMv5uUBTmMIP/6N0WMOBn.E5.E//Y8x2uTYyULalpT1wCEy8Z.",
       "id": 3
+    },
+    {
+      "email": "naraku@mail.com",
+      "password": "$2a$10$UNsAmd4S9ukIcMpXTozr9uCQbIn7/R3Mg9Lddz92DEsxuxxzYqAzG",
+      "id": 4
     }
   ],
   "pets": [

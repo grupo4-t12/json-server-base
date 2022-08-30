@@ -2,6 +2,10 @@
 
 Fizemos um "fork" do repositório com a base de JSON-Server + JSON-Server-Auth já configurada, feita para ser usada no desenvolvimento das API's nos Projetos Front-end (https://github.com/Kenzie-Academy-Brasil-Developers/json-server-base).
 
+## URL Base da API
+
+https://api-projetofinal-grupo4.herokuapp.com/
+
 ## Endpoints que não precisam de autenticação
 
 Não é necessário passar um token para realizar uma requisição bem sucedida nos seguintes endpoints:
