@@ -6,6 +6,44 @@
       "name": "Kenzinho",
       "age": 38,
       "id": 1
+    },
+    {
+      "email": "matheus@mail.com",
+      "password": "$2a$10$QP4HkOj4AXztra4MNN.Zh.aUbsQTKG0gu8L2kYwSfs5q5b.VKB9Q.",
+      "id": 2
+    },
+    {
+      "email": "kagome@mail.com",
+      "password": "$2a$10$2c1sMv5uUBTmMIP/6N0WMOBn.E5.E//Y8x2uTYyULalpT1wCEy8Z.",
+      "id": 3
+    }
+  ],
+  "pets": [
+    {
+      "name": "Tobby",
+      "animal": "cachorro",
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "name": "Dodó",
+      "animal": "raposa",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "name": "Plutoo",
+      "animal": "cachorro",
+      "userId": 2,
+      "id": 3
+    },
+    {
+      "name": "Pluto",
+      "animal": "cachorro",
+      "userId": 2,
+      "consultas": [],
+      "vacinas": [],
+      "id": 4
     }
   ]
 }
