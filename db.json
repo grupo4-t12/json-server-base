@@ -9,7 +9,7 @@
     },
     {
       "email": "matheus@mail.com",
-      "password": "$2a$10$QP4HkOj4AXztra4MNN.Zh.aUbsQTKG0gu8L2kYwSfs5q5b.VKB9Q.",
+      "password": "$2a$10$vLnm9g3LMg1nALDDD.IEtOqZoFnxv9DGrSunGWHuvRvvyOxYpk6i6",
       "id": 2
     },
     {
@@ -21,6 +21,34 @@
       "email": "naraku@mail.com",
       "password": "$2a$10$UNsAmd4S9ukIcMpXTozr9uCQbIn7/R3Mg9Lddz92DEsxuxxzYqAzG",
       "id": 4
+    },
+    {
+      "email": "leticia@mail.com",
+      "password": "$2a$10$Y1ExrWwLfbpniEqdvoKHLOutdJ3ScbqK8qQMa2G0/HAjCNCrC3F/.",
+      "name": "Letícia",
+      "confirmPassword": "Senh@123",
+      "id": 5
+    },
+    {
+      "email": "axel@mail.com",
+      "password": "$2a$10$HLcTfEvDr/qNYIpsi8U7f.LpW6sASZBBeBoX7Frl5Va4BBmCILQbK",
+      "name": "Axel",
+      "confirmPassword": "Senh@123",
+      "id": 6
+    },
+    {
+      "email": "erica@mail.com",
+      "password": "$2a$10$kRg3o2vaqIrgjjyiAQRGBeYa4ilD3rkBNwW4sltJYs7j0t4nOVp92",
+      "name": "Erica",
+      "confirmPassword": "Senh@123",
+      "id": 7
+    },
+    {
+      "email": "luan@mail.com",
+      "password": "$2a$10$9DDtrpX79PMRv/vqhHqZmeWqc4qFa.PZ72ro5a2JSyhkOJPeqhVqC",
+      "name": "Luan",
+      "confirmPassword": "Senh@123",
+      "id": 8
     }
   ],
   "pets": [
@@ -37,24 +65,28 @@
       "id": 2
     },
     {
-      "name": "Plutoo",
-      "animal": "cachorro",
-      "userId": 2,
-      "id": 3
-    },
-    {
       "name": "Pluto",
       "animal": "cachorro",
       "userId": 2,
-      "consultas": [],
-      "vacinas": [],
-      "id": 4
-    },
+      "id": 3
+    }
+  ],
+  "vacinas": [
     {
-      "name": "Plutoooo",
-      "animal": "cachorro",
+      "tipo": "antirrábica",
+      "data": "Setembro, 2022",
+      "petId": 2,
+      "id": 1
+    }
+  ],
+  "consultas": [
+    {
+      "Procedimento": "Check-up de rotina",
+      "Pet": "Toby",
+      "Animal": "Cachorro",
+      "Valor": "R$ 150,00",
       "userId": 2,
-      "id": 5
+      "id": 1
     }
   ]
 }

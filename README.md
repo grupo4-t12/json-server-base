@@ -102,3 +102,78 @@ PATCH /pets/{id}
 DELETE /pets/{id}
 
 Não é necessário passar um body, o pet com id correspondente será removido da API.
+
+### Incluir vacina no histórico do pet
+
+POST /vacinas
+
+{
+"tipo": "antirrábica",
+"data": "Setembro, 2022",
+"petId": 2
+}
+
+Resposta da API:
+
+{
+"tipo": "antirrábica",
+"data": "Setembro, 2022",
+"petId": 2,
+"id": 1
+}
+
+É necessário passar o "petId" no body, é o ID do pet no qual a vacina foi aplicada.
+
+### Listagem de pets incluindo o array de vacinas na resposta
+
+GET /pets?\_embed=vacinas
+
+Resposta da API:
+
+[
+{
+"name": "Tobby",
+"animal": "cachorro",
+"userId": 2,
+"id": 1,
+"vacinas": []
+},
+{
+"name": "Dodó",
+"animal": "raposa",
+"userId": 1,
+"id": 2,
+"vacinas": [
+{
+"tipo": "antirrábica",
+"data": "Setembro, 2022",
+"petId": 2,
+"id": 1
+}
+]
+}
+]
+
+É possível requisitar um pet específico passando seu id no endpoint da seguinte forma: GET /pets/{id}?embed=vacinas
+
+### Endpoints relacionados às consultas
+
+Esses endpoints funcionam de forma análoga aos de vacinas, porém a rota tem relação com o user e não com o pet.
+
+POST /consultas
+
+{
+"Procedimento": "Check-up de rotina",
+"Pet": "Toby",
+"Animal": "Cachorro",
+"Valor": "R$ 150,00",
+"userId": 2
+}
+
+GET /users?\_embed=consultas
+
+GET /users/{id}?\_embed=consultas
+
+Também é possível requisitar, como resposta, um array de users que contenha o histórico de pets e de consultas simultaneamente:
+
+GET /users/{id}?\_embed=consultas&\_embed=pets
