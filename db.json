@@ -10,17 +10,8 @@
     {
       "email": "matheus@mail.com",
       "password": "$2a$10$vLnm9g3LMg1nALDDD.IEtOqZoFnxv9DGrSunGWHuvRvvyOxYpk6i6",
-      "id": 2
-    },
-    {
-      "email": "kagome@mail.com",
-      "password": "$2a$10$2c1sMv5uUBTmMIP/6N0WMOBn.E5.E//Y8x2uTYyULalpT1wCEy8Z.",
-      "id": 3
-    },
-    {
-      "email": "naraku@mail.com",
-      "password": "$2a$10$UNsAmd4S9ukIcMpXTozr9uCQbIn7/R3Mg9Lddz92DEsxuxxzYqAzG",
-      "id": 4
+      "id": 2,
+      "name": "Matheus"
     },
     {
       "email": "leticia@mail.com",
@@ -53,29 +44,23 @@
   ],
   "pets": [
     {
-      "name": "Tobby",
-      "animal": "cachorro",
+      "name": "Toby",
+      "animal": "Cachorro",
       "userId": 2,
       "id": 1
     },
     {
       "name": "Dodó",
-      "animal": "raposa",
-      "userId": 1,
-      "id": 2
-    },
-    {
-      "name": "Pluto",
-      "animal": "cachorro",
+      "animal": "Raposa",
       "userId": 2,
-      "id": 3
+      "id": 4
     }
   ],
   "vacinas": [
     {
-      "tipo": "antirrábica",
+      "tipo": "Antirrábica",
       "data": "Setembro, 2022",
-      "petId": 2,
+      "petId": 1,
       "id": 1
     }
   ],
