@@ -45,7 +45,7 @@
   "pets": [
     {
       "name": "Toby",
-      "animal": "Cachorro",
+      "animal": "Cão",
       "userId": 2,
       "id": 1
     },
@@ -66,12 +66,20 @@
   ],
   "consultas": [
     {
-      "Procedimento": "Check-up de rotina",
-      "Pet": "Toby",
-      "Animal": "Cachorro",
+      "procedimento": "Check-up de rotina",
+      "pet": "Toby",
+      "animal": "Cão",
       "Valor": "R$ 150,00",
       "userId": 2,
       "id": 1
+    },
+    {
+      "procedimento": "Curativo simples",
+      "pet": "Dodó",
+      "animal": "Raposa",
+      "Valor": "R$ 20,00",
+      "userId": 2,
+      "id": 2
     }
   ]
 }
